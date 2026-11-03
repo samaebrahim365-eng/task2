@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>دور لغة CSS في تنسيق وتصميم صفحات الويب</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#f4f7fb;color:#263746;font-family:Tahoma,Arial,sans-serif;line-height:1.95}
+header{background:#fff;border:2px solid #356b91;border-radius:14px;max-width:900px;margin:24px auto;padding:35px 24px;text-align:center}
+header h2{color:#214d6c;margin:0 0 25px}
+header h1{font-size:29px;color:#214d6c;margin:35px 0}
+header .student{text-align:right;max-width:620px;margin:45px auto 0}
+main{max-width:900px;margin:22px auto;padding:0 14px}
+section{background:#fff;border-radius:12px;padding:20px 24px;margin:18px 0;box-shadow:0 3px 14px #193d5a12}
+h2{background:#e5f0f8;color:#214d6c;padding:5px 14px;border-radius:9px;font-size:23px}
+h3{color:#214d6c;font-size:21px}
+p{margin:12px 0}
+ul{padding-right:28px}
+li{margin:5px 0}
+.code{direction:ltr;text-align:left;background:#f1f3f6;border:1px solid #cbd3dc;border-radius:10px;padding:16px;white-space:pre-wrap;font:19px Consolas,monospace}
+img{display:block;max-width:100%;height:auto;margin:18px auto;border-radius:12px}
+table{width:100%;border-collapse:collapse;margin:18px 0}
+th,td{border:1px solid #9eb4c5;padding:10px;text-align:center}
+th{background:#e5f0f8;color:#214d6c}
+a{color:#286b9b;overflow-wrap:anywhere}
+footer{text-align:center;padding:20px;color:#60758a}
+@media(max-width:600px){header{margin:12px;padding:22px 15px}header h1{font-size:23px}section{padding:16px}h2{font-size:20px}table{font-size:13px}th,td{padding:6px}}
+</style>
+</head>
+<body>
+<header>
+<h2>المعهد العالي لنظم المعلومات الإدارية والمحاسبية</h2>
+<h1>تقرير بحثي مصغر<br>دور لغة CSS في تنسيق وتصميم صفحات الويب</h1>
+<div class="student">
+<p><strong>إعداد الطالبة:</strong> سماء إبراهيم سعيد محمد</p>
+<p><strong>الرقم الجامعي:</strong> 2503046</p>
+<p><strong>المقرر:</strong> تطبيقات الإنترنت والمنصات الإلكترونية</p>
+<p><strong>العام الدراسي:</strong> 2026 / 2027</p>
+</div>
+</header>
+
+<main>
+<section>
+<h2>المقدمة</h2>
+<p>أصبحت مواقع الويب جزءًا مهمًا من حياتنا اليومية، فنستخدمها في التعلم والتواصل والتسوق والحصول على المعلومات. ولا يعتمد الموقع الجيد على المعلومات فقط، بل يحتاج أيضًا إلى تصميم واضح ومريح. وتُعد لغة CSS من التقنيات الأساسية التي تساعد على تنسيق صفحات الويب والتحكم في ألوانها وخطوطها وترتيب عناصرها. ويهدف هذا التقرير إلى شرح CSS وأهميتها مع أمثلة بسيطة.</p>
+<h2>أولًا: ما هي لغة CSS؟</h2>
+<p>CSS هي اختصار لعبارة Cascading Style Sheets، ومعناها أوراق الأنماط المتتالية. وهي لغة تُستخدم لتحديد شكل صفحة الويب. فعلى سبيل المثال، تُستخدم HTML لإضافة العناوين والفقرات والصور، بينما تُستخدم CSS لتحديد ألوان هذه العناصر وأحجامها وطريقة ظهورها.</p>
+<h2>ثانيًا: أهمية CSS</h2>
+<p>تساعد CSS في جعل صفحات الويب منظمة وجذابة، ومن أهم استخداماتها:</p>
+<ul>
+<li>تغيير ألوان النصوص والخلفيات.</li>
+<li>اختيار نوع الخط وحجمه.</li>
+<li>تحديد المسافات بين العناصر.</li>
+<li>تنظيم الصور والنصوص داخل الصفحة.</li>
+<li>جعل التصميم مناسبًا لشاشات الهاتف والحاسوب.</li>
+</ul>
+<img src="css-web-design.svg" alt="رسم توضيحي يبين دور HTML في بناء محتوى الصفحة ودور CSS في تنسيقها">
+</section>
+
+<section>
+<h2>عرض الموضوع (تابع)</h2>
+<h3>ثالثًا: مثال مبسط</h3>
+<p>لنفترض أن لدينا عنوانًا مكتوبًا فيه «مرحبًا بكم». يمكن استخدام CSS لجعل العنوان أزرق اللون، وتكبير حجمه، ووضعه في منتصف الصفحة. أي أننا نغير شكل الكلام دون تغيير الكلمات نفسها.</p>
+<p><strong>مثال على الكود:</strong></p>
+<pre class="code">h1 {
+    color: blue;
+    font-size: 28px;
+    text-align: center;
+}</pre>
+<p>في هذا المثال، تحدد color لون النص، وتحدد font-size حجم الخط، أما text-align فتحدد مكان النص داخل الصفحة.</p>
+<h3>رابعًا: العلاقة بين HTML وCSS</h3>
+<p>تحدد HTML محتوى الصفحة، مثل العناوين والفقرات، بينما تحدد CSS مظهر هذا المحتوى. ويمكن حفظ تنسيقات CSS في ملف مستقل وربطه بصفحة HTML، مما يسهل تعديل التصميم وتوحيده في صفحات الموقع.</p>
+<table>
+<thead><tr><th>وجه المقارنة</th><th>HTML</th><th>CSS</th></tr></thead>
+<tbody>
+<tr><td>الوظيفة</td><td>تحديد محتوى الصفحة</td><td>تحديد مظهر الصفحة</td></tr>
+<tr><td>أمثلة</td><td>العناوين والفقرات والصور</td><td>الألوان والخطوط والمسافات</td></tr>
+<tr><td>الدور</td><td>بناء هيكل الصفحة</td><td>تنسيق وتصميم الصفحة</td></tr>
+</tbody></table>
+<h3>خامسًا: مزايا CSS</h3>
+<p>من مزايا CSS أنها تفصل بين المحتوى والتصميم، وتساعد على توحيد شكل صفحات الموقع، وتسهل تحديث الألوان والخطوط والمسافات. كما يمكن استخدامها لجعل الصفحة مناسبة لأحجام الشاشات المختلفة.</p>
+</section>
+
+<section>
+<h2>الخاتمة والمراجع</h2>
+<h3>الخاتمة</h3>
+<p>يتضح أن CSS عنصر أساسي في تصميم صفحات الويب؛ لأنها تساعد على التحكم في الألوان والخطوط والمسافات وترتيب العناصر. كما أن تعلم أساسياتها يساعد المبتدئين على فهم طريقة تصميم مواقع واضحة وسهلة الاستخدام. لذلك تُعد CSS خطوة مهمة لكل من يرغب في تعلم تصميم وتطوير الويب.</p>
+<h3>المراجع</h3>
+<ul>
+<li>موقع MDN Web Docs، دليل CSS:
+<a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" rel="noopener">https://developer.mozilla.org/en-US/docs/Web/CSS</a></li>
+<li>موقع MDN Web Docs، تعلم أساسيات تنسيق الويب:
+<a href="https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics" target="_blank" rel="noopener">https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics</a></li>
+<li>موقع W3Schools، دروس CSS:
+<a href="https://www.w3schools.com/css/" target="_blank" rel="noopener">https://www.w3schools.com/css/</a></li>
+</ul>
+</section>
+</main>
+<footer>تطبيقات الإنترنت والمنصات الإلكترونية</footer>
+</body>
+</html>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="360" viewBox="0 0 900 360">
+<rect width="900" height="360" rx="24" fill="#e7f1f9"/>
+<rect x="65" y="55" width="320" height="245" rx="18" fill="#fff" stroke="#9ebbd0" stroke-width="4"/>
+<rect x="65" y="55" width="320" height="45" rx="16" fill="#285d82"/>
+<text x="225" y="205" text-anchor="middle" font-family="Arial" font-size="55" font-weight="bold" fill="#214d6c">HTML</text>
+<path d="M420 175 H485 M465 155 L490 175 L465 195" fill="none" stroke="#367da6" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="515" y="55" width="320" height="245" rx="18" fill="#fff" stroke="#9ebbd0" stroke-width="4"/>
+<text x="675" y="160" text-anchor="middle" font-family="Arial" font-size="62" font-weight="bold" fill="#2876a8">CSS</text>
+<rect x="575" y="190" width="200" height="35" rx="9" fill="#2876a8"/>
+<circle cx="610" cy="260" r="16" fill="#e9b64d"/><circle cx="675" cy="260" r="16" fill="#5a9c7a"/><circle cx="740" cy="260" r="16" fill="#d87580"/>
+<text x="450" y="338" text-anchor="middle" font-family="Arial" font-size="19" fill="#214d6c">HTML: Content  |  CSS: Design and Style</text>
+</svg>
